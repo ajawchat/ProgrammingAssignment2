@@ -1,10 +1,10 @@
 ## Caching the Inverse of a matrix
+## Programming Assignment 2
 
 makeCacheMatrix <- function(x = matrix()) {
     
-    ## This variable would be used to hold the inverse of the matrix. It is initialized to NULL
+    ## This variable would be used to hold the inverse of the matrix. 
     inverseMatrix <- matrix()
-    #inverseMatrix <- NULL
     
     
     ## This function would create a new matrix based and assign it to the variable x
@@ -40,7 +40,6 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Function to check and return a cached version if exists, else compute it
-
 cacheSolve <- function(x, ...) {
     ## Return a matrix that is the inverse of 'x'
     inv <- matrix()
